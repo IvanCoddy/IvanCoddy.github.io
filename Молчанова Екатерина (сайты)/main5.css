@@ -40,10 +40,35 @@
 	-ms-transition: opacity linear .2s;
 	-o-transition: opacity linear .2s;
 	transition: opacity linear .2s;
-	
-
 }
 
+.documents {
+	width: 65%;
+	text-transform: uppercase;
+	padding: 7px 20px;
+	text-align: left;
+	background-color: red;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	border:3px solid red;
+	box-shadow:  0px 20px 50px rgba(21, 21, 21, 0.3), 0px 5px 20px rgba(21, 21, 21, 0.2), inset 0 -1px 0px 3px rgba(255, 255, 255, 0.15);
+	transition: box-shadow 150ms cubic-bezier(0, 0, 0.01, 0.41), transform 100ms ease-out;
+}
+
+.documents:hover {
+	transition: .5s;
+	text-align: right;
+	background-color: unset;
+	border:none;
+	border:3px solid red;
+	text-decoration: none;
+	font-weight: bold;
+	color: red;
+}
 .int{
 	display: flex;
 	flex-direction: column;
