@@ -1,17 +1,14 @@
 
+
 #first {
-	background-image: url(img/security.jpg);
+	background-image: url(img/lake.jpg);
+
 }
 
-.logotype{
-	
-	color: #fff;
-}
 
-.navi__item {
+.navi__item, .logotype {
+	color: #888888;
 	
-	color: #fff;
-
 }
 
 .navi__item:after {
@@ -25,7 +22,9 @@
 	left: 0;
 	z-index: 1;
 	opacity: 0;
-	transform: opacity linear 0.2;
+	-webkit-transform: opacity linear 0.2;
+	    -ms-transform: opacity linear 0.2;
+	        transform: opacity linear 0.2;
 
 }
 .navi__item:hover {
@@ -36,43 +35,23 @@
 	display: block;
 	opacity: 1;
 	-webkit-transition: opacity linear .2s;
-	-moz-transition: opacity linear .2s;
-	-ms-transition: opacity linear .2s;
 	-o-transition: opacity linear .2s;
 	transition: opacity linear .2s;
+	
+
 }
 
-.documents {
-	width: 65%;
-	text-transform: uppercase;
-	padding: 7px 20px;
-	text-align: left;
-	background-color: red;
-	text-decoration: none;
-	font-size: 14px;
-	color: white;
-	border: none;
-	font-weight: bold;
-	cursor: pointer;
-	border:3px solid red;
-	box-shadow:  0px 20px 50px rgba(21, 21, 21, 0.3), 0px 5px 20px rgba(21, 21, 21, 0.2), inset 0 -1px 0px 3px rgba(255, 255, 255, 0.15);
-	transition: box-shadow 150ms cubic-bezier(0, 0, 0.01, 0.41), transform 100ms ease-out;
-}
-
-.documents:hover {
-	transition: .5s;
-	text-align: right;
-	background-color: unset;
-	border:none;
-	border:3px solid red;
-	text-decoration: none;
-	font-weight: bold;
-	color: red;
-}
 .int{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	height: 75vh;
 }
 
@@ -95,7 +74,7 @@
 	margin-top: 0px;
 	line-height: 1;
 	font-weight: 700;
-	text-shadow: 0 20px 40px rgba(0,0,0,.3), 0 0 1px 0 rgba(0,20,51,.4);
+	text-shadow: 0px 3px 153.3px rgba(0, 0, 1, 0.1);
 }
 
 .btn {
@@ -113,6 +92,8 @@
 .btn:hover {
 	color: #333;
 	background-color: #fff;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
 	transition: 0.2s;
 }
 
@@ -121,6 +102,7 @@
 
 #second {
 	padding-top: 60px;
+	height: 100vh;
 }
 
 .i {
@@ -140,15 +122,14 @@
 	text-align: left;
 }
 
+
+
+
 .national {
 	width: 72%;
 	padding: 0;
 	margin: 0;
 	line-height: 27px;
-}
-
-.marg {
-	padding-top: 50px;
 }
 
 
@@ -157,15 +138,6 @@
 	text-align: right;
 }
 
-.flowers {
-	margin-top: 45px;
-}
-
-.flowers p {
-	width: 72%;
-}
-
-
 
 #foot {
 	background-color: rgb(188, 215, 232);
@@ -173,20 +145,25 @@
 	padding-top: 20px; 
 }
 
-.container__footer {
-    display: -webkit-flex;  
+.container__footer {  
+    display: -webkit-box;  
+    display: -ms-flexbox;  
     display: flex;
     height: 22vh;
-    justify-content: space-between;
-    -webkit-align-items: center; 
-    align-items: center;  /* флекс элементы располагаются по центру контейнера (середина поперечной оси) */
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;  /* флекс элементы располагаются по центру контейнера (середина поперечной оси) */
 }
 .container__footer > div { 
     width: 20%; 
 } 
 .container__footer:hover {  
-    -webkit-align-items: center;  
-    align-items: center; 
+    -webkit-box-align: center;  
+        -ms-flex-align: center;  
+            align-items: center; 
 } 
 .container__footer div:nth-of-type(1) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем первый <div> в контейнере) */ 
     color: rgb(116, 119, 158);
@@ -214,6 +191,8 @@
 
 
 .up__footer:hover {
+	-webkit-transition: .3s;
+	-o-transition: .3s;
 	transition: .3s;
 	width: 22px;
 	margin-bottom: 8px;
@@ -225,5 +204,4 @@
 		opacity: 0.50;
 		text-align: left;
 }
-
 
