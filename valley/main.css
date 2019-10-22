@@ -1,0 +1,182 @@
+
+#first {
+	background-image: url(img/Tunkinskajadolina.jpg);
+}
+.navi__item {
+	
+	color: #fff;
+	
+}
+
+.navi__item:after {
+	
+	background-color: #f7eadf;
+
+}
+.navi__item:hover {
+	color: #f7eadf;
+}
+
+.navi__item:hover:after {
+	display: block;
+	opacity: 1;
+	-webkit-transition: opacity linear .2s;
+	-moz-transition: opacity linear .2s;
+	-ms-transition: opacity linear .2s;
+	-o-transition: opacity linear .2s;
+	transition: opacity linear .2s;
+	
+
+}
+
+.int{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 75vh;
+}
+
+.int__inner {
+	width: 100%;
+	max-height: 200px;
+	margin: 0 auto;
+}
+
+.int__suptitle {
+	font-size: 44px;
+	font-family: 'Kaushan Script', cursive;
+	margin-bottom: 0px;
+}
+
+.int__title {
+	font-size: 90px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 0px;
+	line-height: 1;
+	font-weight: 700;
+	text-shadow: 0px 3px 153.3px rgba(0, 0, 1, 0.1);
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid #fff;
+	padding: 13px 45px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+	margin-top: 30px;
+	font-weight: 500;
+}
+
+.btn:hover {
+	color: #333;
+	background-color: #fff;
+	transition: 0.2s;
+}
+
+
+/*second section*/
+
+#second {
+	padding-top: 60px;
+}
+
+.i {
+	font-family: 'Kaushan Script', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+
+.sec {
+	padding: 0;
+	margin: 0;
+	font-size: 36px;
+}
+
+.interno {
+	text-align: left;
+}
+
+.marg {
+	margin-top: 45px;
+}
+
+
+.national {
+	width: 72%;
+	padding: 0;
+	margin: 0;
+	line-height: 27px;
+}
+
+
+.links {
+	width: 23%;
+	text-align: right;
+}
+
+
+#foot {
+	background-color: rgb(188, 215, 232);
+	height: 22vh;
+	padding-top: 20px; 
+}
+
+.container__footer {
+    display: -webkit-flex;  
+    display: flex;
+    height: 22vh;
+    justify-content: space-between;
+    -webkit-align-items: center; 
+    align-items: center;  /* флекс элементы располагаются по центру контейнера (середина поперечной оси) */
+}
+.container__footer > div { 
+    width: 20%; 
+} 
+.container__footer:hover {  
+    -webkit-align-items: center;  
+    align-items: center; 
+} 
+.container__footer div:nth-of-type(1) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем первый <div> в контейнере) */ 
+    color: rgb(116, 119, 158);
+    font-size : 10px; 
+}
+.container__footer div:nth-of-type(2) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем второй <div> в контейнере) */ 
+    font-size : 18px; 
+} 
+.container__footer div:nth-of-type(3) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем третий <div> в контейнере) */ 
+
+    font-size : 12px; 
+} 
+.container__footer div:nth-of-type(4) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем четвертый <div> в контейнере) */ 
+	
+    font-size : 10px; 
+} 
+.container__footer div:nth-of-type(5) { /* псевдокласс :nth-of-type() выбирает каждый указанный элемент, который является заданным дочерним элементом своего родительского элемента (выбираем пятый <div> в контейнере) */ 
+    font-size : 40px; 
+    text-align: right;	
+} 
+
+.up__footer {
+	width: 20px;
+}
+
+
+.up__footer:hover {
+	transition: .3s;
+	width: 22px;
+	margin-bottom: 8px;
+}
+
+
+.int__footer {
+		font-family: 'Kaushan Script', cursive;
+		opacity: 0.50;
+		text-align: left;
+}
+
+
