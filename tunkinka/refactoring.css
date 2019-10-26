@@ -4,6 +4,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.i {
+  color: #969696;
+}
+
+p {
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  color: #141414;
+}
+
 #first {
 	background-size: cover;
 	background-position: top;
@@ -78,7 +88,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 72%;
+  width: 100%;
   position: relative;
   margin-top: 30px;
 }

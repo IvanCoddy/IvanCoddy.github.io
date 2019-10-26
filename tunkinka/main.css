@@ -131,6 +131,11 @@
 .links {
 	width: 23%;
 	text-align: right;
+
+}
+
+.links a {
+	color: blue;
 }
 
 
