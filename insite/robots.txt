@@ -1,0 +1,18 @@
+Disallow: /projects/
+Disallow: /thanks.html
+Crawl-Delay: 5
+
+User-agent: GoogleBot
+Disallow: /projects/
+Disallow: /thanks.html
+
+
+User-agent: Yandex
+Disallow: /projects/
+Disallow: /thanks.html
+
+Clean-Param: utm_source&utm_medium&utm_campaign
+Crawl-Delay: 0.5
+
+Sitemap: https://insite-web.com/sitemap.xml
+Host: https://insite-web.com
