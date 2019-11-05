@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 480px) {
+	.art {
+		width: 100vw;
+	}
+
+	.content {
+		padding-top: 5vh;
+		width: 90vw;
+		margin: 0 auto;
+	}
+
+	.inp {
+		display: block;
+		margin: 0 auto;
+		-webkit-box-pack: unset;
+		    -ms-flex-pack: unset;
+		        justify-content: unset;
+
+	}
+	.responsive {
+		display: block;
+		width: 80vw;
+		margin: 0 auto;
+		margin-top: 2.3vh;
+	}
+	.social {
+		text-align: center;
+		margin-top: 5vh;
+		display: block;
+		-webkit-box-pack: unset;
+		    -ms-flex-pack: unset;
+		        justify-content: unset;
+	}
+	.top {
+		margin-top: 2vh;
+	}
+	.social__media {
+		width: 30px;
+		height: auto;
+		margin: 0 10px 0 10px;
+	}
+}
