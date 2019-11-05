@@ -1,0 +1,134 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#first {
+	background-image: url(backg.jpg);
+	height: 100vh; /*100 % от высоты экрана пользователя*/
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+article {
+	width: 85%;
+	margin: auto;
+}
+
+.head__btn {
+	font-size: 14px;
+  	background-color: rgba(159, 68, 211, 0.302);
+  	width: 191px;
+  	height: 39px;
+  	color: #fff;
+  	border: none;
+  	border-radius: 60px;
+  	cursor: pointer;
+}
+
+.head__phone {
+	height: 15px;
+}
+
+.lable{
+	width: 191px;
+}
+
+.logo {
+	width: 35px;
+	height: 35px;
+}
+
+.item {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.line {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+.offer {
+	margin-top: 90px;
+	width: 570px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: lighter;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.offer__btn {
+  border-radius: 6px;
+  background-color: rgb(237, 224, 70);
+  width: 250px;
+  height: 55px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.offer__btn:hover {
+	transition: .3s;
+	background-color: #cbc039;
+
+}
+.rect {
+  background-color: rgb(191, 131, 226);
+  width: 94%;
+  border-radius: 5px;
+  height: 70px;
+  -webkit-transform: skew(-10deg);
+	   -moz-transform: skew(-10deg);
+	     -o-transform: skew(-10deg);
+  z-index: 8;
+  display: inline-block;
+}
+
+.main {
+	display: flex;
+	margin-top: 140px;
+	justify-content: space-between;
+
+}
+
+.camera {
+	height:  460px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.main {
+		display: none;
+}
+}
+
+
+
+
+
+
+
