@@ -506,7 +506,7 @@ h1 > span {
 	}
 	
 	h1 {
-		width: 100vw;
+		width: 100%;
 		text-align: center;
 	}
 
@@ -520,10 +520,24 @@ h1 > span {
 		height: inherit;
 
 	}	
+	
+	.article__sale {
+		display: none;
 
+	}
 
+	.grid__offer {
+		padding-top: 40px;
+
+	}
+
+	.key {
+		
+	}
+	
 	.first__grid {
-		display: inherit
+		display: inherit;
+		padding-top: 20px;
 	}
 
 	.grid__two {
@@ -539,11 +553,11 @@ h1 > span {
 	#second {
 		padding-top: 540px;
 	}
-	
 
-	/*.sale__two {
-		width: 90vw;
-	}*/
+	.flat__info {
+		width: 90%;
+	}
+	
 
 	.second__title, .third__title {
 		width: 100%;
