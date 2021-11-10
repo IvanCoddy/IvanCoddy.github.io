@@ -59,6 +59,10 @@ section {
 
 }
 
+p {
+	line-height: 26px;
+}
+
 
 #first {
 	background-color: rgb(242, 242, 242);
