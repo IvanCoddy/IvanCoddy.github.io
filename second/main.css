@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(245, 245, 245);
+	padding: 0 4%;
+}
+
+
+.left-arrow {
+	transform: rotate(180deg);
+	width: 28px;
+}
+
+header > a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+
+.logo-of-brands,
+header,
+.head-text {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-of-brands {
+	overflow-x: scroll;
+	margin: 40px 0;
+}
+
+.logo-of-brands > img {
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 15px;
+	width: 60px;
+}
+
+.logo-of-brands > img:nth-child(5) {
+
+	padding: 19px;
+}
+
+
+.main-content {
+	margin-top: 40px;
+}
+
+.head-text {
+	align-items: flex-end !important;
+}
+
+.head-text > h2 {
+	font-size: 38px;
+}
+
+.head-text > p {
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.wrapper-kicks {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 17px;
+}
+
+.item-kick {
+	padding: 7%;
+	position: relative;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.item-kick > img:nth-child(1){
+	position: absolute;
+	width: 28px;
+	opacity: 0.6;
+	right: 10%;
+	top: 4%;	
+}
+
+.item-kick > img:nth-child(2){
+	width: 100%;
+}
+
+h1,h2,h3,a,p,span{
+	line-height: 21px;
+	font-family: 'Manrope', sans-serif;
+}
+
+.description-text {
+	padding: 0 15px;
+}
+
+.description-text > h3 {
+	font-size: 14px;
+}
+
+.price-of-kicks {
+	margin-top: 10px;
+	opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
