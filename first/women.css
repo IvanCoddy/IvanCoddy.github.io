@@ -1,0 +1,58 @@
+body {
+	background-color: rgb(242,242,242);
+	padding: 0 !important;  
+}
+
+header {
+	margin-top:0;
+}
+
+nav > a:nth-child(1) {
+	font-weight: 700;
+	color: rgb(106, 79, 222);
+}
+
+.white-bg-header {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 28px;
+}
+
+.clothes-lits {
+	margin-top: 45px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 28px;
+	grid-auto-rows: minmax(450px, auto);
+}
+
+.item-of-list {
+	text-align: center;
+	font-size: 15px;
+}
+
+.item-of-list > img {
+	width: 100%;
+}
+
+.description-item-text >h3 {
+	font-weight: 300;
+}
+
+.description-item-text > .type	{
+	font-size: 13px;
+	opacity: 0.6;
+	width: 150px;
+	margin:10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
