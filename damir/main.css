@@ -36,6 +36,11 @@ button {
 	justify-content: space-between;
 }
 
+.menu-list > li > a {
+	font-size: 13px;
+	font-weight: 300;
+}
+
 header > input {
 	width: 65%;
 	height: 16px;
