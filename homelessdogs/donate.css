@@ -1,0 +1,180 @@
+#screen-donate {
+    position: relative;
+    height: 100vh;
+}
+
+.hear-dog {
+    position: absolute;
+    right: 10%;
+    width: 500px;
+    bottom: 0;
+}
+
+.navigation-mn-first > a{
+    color: rgba(0,0,0,0.75) !important;
+}
+
+h1 {
+    font-size: 36px !important;
+}
+
+article {
+    width: 75vw;
+    margin: auto;
+}
+
+.donate-main-text {
+    width: 60%;
+    margin-top: 180px;
+}
+
+
+.donate-main-text > p {
+    margin-top: 30px;
+}
+
+.social-web {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-web > img {
+    height: 90px;
+    width: auto;
+    width: 40px;
+    justify-content: space-between;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.social-web > img:nth-child(1) {
+    height: 90px;
+}
+
+.social-web > img:hover {
+    transform: rotate(180deg);
+}
+
+.donate-second {
+    border: 2px solid rgb(170,84,115);
+    padding: 13px 38px;
+    font-size: 16px;
+    background: unset;
+    margin-top: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color:rgb(170,84,115);
+    color: #fff;
+    transition: 400ms;
+    display: inline-block;
+}
+
+.donate-second:hover {
+    background-color:#fff;
+    color: rgb(170,84,115);
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.sber-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sber-container > img {
+    width: 35px;
+}
+
+.sber-container > p {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.sber-container > p > a {
+    text-decoration: none;
+    color: rgba(0,0,0,.75);
+    font-size: 15px;
+}
+
+.public-ofert {
+    font-size: 12px;
+    text-align: center;
+}
+
+.public-ofert > a {
+    text-decoration: none;
+    border-bottom: 1px dashed blue;
+}
+
+.modal_content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 20% auto;
+    width: 30%;
+    color: rgba(0,0,0,0.93);
+    padding: 30px 45px;
+}
+
+.close {
+    top: -48px;
+    position: absolute;
+    right: -26px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal_content > * {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 480px) {
+    article {
+        width: 90vw;
+    }
+
+    .donate-main-text {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .donate-main-text > h1     {
+        font-size: 28px;
+    }
+
+    #screen-donate {
+        height: auto;
+        min-height: 1300px;
+    }
+
+    .modal_content {
+        width: 90%;
+        margin: 15% auto;
+        padding: 10px 20px;
+    }
+
+
+    .close {
+        top: -53px;
+        right: 0;
+    }
+
+
+    .hear-dog {
+        width: 300px;
+    }
+}

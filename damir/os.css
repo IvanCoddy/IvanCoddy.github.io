@@ -25,9 +25,26 @@
 }
 
 .helpdesk-os {
-	margin-top: 36px;
+	margin-top: 66px;
 }
 
+.helpdesk-os > p {
+	font-size: 14px;
+	font-weight: 200;
+	width: 45%;
+}
+
+.button-buy {
+	background: #0d84fb;
+	color: #fff;
+	padding: 11px 24px;
+	font-size: 13px;
+	border: none;
+	border-radius: 8px;
+	margin-top: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
 
 
 

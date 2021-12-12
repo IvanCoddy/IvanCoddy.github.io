@@ -1,0 +1,21 @@
+body {
+	transition: 300ms;
+}
+
+.round-one {
+	top: 19%;
+}
+
+.round-two {
+	top: 19px;
+	right: 11%;
+}
+
+.round-three {
+	left: 7%;
+}
+
+.round-four{
+	bottom: 7%;
+	right: 15%;
+}
