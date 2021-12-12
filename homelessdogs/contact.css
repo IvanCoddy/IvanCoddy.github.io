@@ -120,6 +120,10 @@
 }
 
 @media screen and (max-width:  480px) {
+	#contact-first {
+		background-position: left;
+	}
+
 	.contact-article {
 		width: 93vw;
 	}
@@ -133,6 +137,14 @@
 
 	.nav-main-menu > a {
 		margin-top: 20px;
+	}
+
+	.social-web-contacts {
+		padding: 12px 36px;
+	}
+
+	.social-web-contacts > a > img {
+		width: 36px;
 	}
 
 	.donate-contact {

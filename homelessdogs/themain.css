@@ -138,6 +138,7 @@ h1{
 	#main-first-screen {
 		height: auto;
 		min-height: 800px;
+		padding-bottom: 125px;
 	}
 
 	#main-first-screen > article {
@@ -146,6 +147,11 @@ h1{
 
 	.navigation-mn-first {
 		display: block;
+	}
+
+	.search-more { 
+		padding: 8px 38px !important;
+		font-size: 14px !important;
 	}
 
 	.navigation-mn-first > a { 

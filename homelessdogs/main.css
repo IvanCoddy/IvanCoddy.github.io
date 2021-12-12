@@ -218,12 +218,13 @@ nav {
      }
 
      .right-item{
-     	height: 100vh;
+     	height: 115vh;
      	padding: 40px 0;
      }
 
      .right-item > nav {
      	flex-direction: column;
+     	width: 80%;
      }
 
     .right-item > nav > *{
@@ -238,6 +239,14 @@ nav {
 
     .round-four {
     	width: 30px;
+    }
+
+    .round-two {
+    	right: 3%;
+    }
+
+    .round-three {
+    	left: 18%;
     }
 
 
@@ -271,7 +280,7 @@ nav {
 
 	.right-item >img {
 		position: absolute;
-		z-index: 0;
+		z-index: 2;
 		width: 268px;
 		bottom: -2%;
 		left: 3%;
